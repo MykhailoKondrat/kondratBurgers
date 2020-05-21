@@ -15,3 +15,7 @@ class App extends Component{
   }
 }
 export default App;
+
+//TODO - branch to WIP
+//     - adjust button styles
+//     - adject items alignment
