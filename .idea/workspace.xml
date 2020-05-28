@@ -1,7 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe0f2de0-cfd0-4be7-afa0-24f4fc1435ff" name="Default Changelist" comment="" />
+    <list default="true" id="fe0f2de0-cfd0-4be7-afa0-24f4fc1435ff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Order/Order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Order/Order.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Checkout/Checkout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Checkout/ContactData/ContactData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Checkout/ContactData/ContactData.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Orders/Orders.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Orders/Orders.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Burger/Burger.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Burger/Burger.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation/NavigationItems/NavigationItem/NavigationItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/NavigationItems/NavigationItem/NavigationItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation/NavigationItems/NavigationItems.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/NavigationItems/NavigationItems.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Modal/Modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Modal/Modal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/BurgerBuild/BurgerBuilder.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/BurgerBuild/BurgerBuilder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hoc/Layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hoc/Layout/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,22 +53,36 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/containers/Checkout/Checkout.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/containers/Orders/Orders.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/Order/Order.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/App.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/hoc/Layout/Layout.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/Burger/Burger.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/containers/Checkout/ContactData/ContactData.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/Navigation/NavigationItems/NavigationItem/NavigationItem.js" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="1cA3JBjUZHWIMdTz3QWNoJwxdmR" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -59,26 +111,62 @@
       <updated>1589957497182</updated>
       <workItem from="1589957499983" duration="111000" />
       <workItem from="1589957664748" duration="15348000" />
+      <workItem from="1590409382270" duration="3234000" />
+      <workItem from="1590581694873" duration="387000" />
+      <workItem from="1590582106552" duration="47000" />
+      <workItem from="1590582169965" duration="91000" />
+      <workItem from="1590582279193" duration="61000" />
+      <workItem from="1590582655632" duration="81000" />
+      <workItem from="1590582760073" duration="289000" />
+      <workItem from="1590583069971" duration="114000" />
+      <workItem from="1590583204670" duration="62000" />
+      <workItem from="1590583296962" duration="694000" />
+      <workItem from="1590584032221" duration="3279000" />
+      <workItem from="1590587749650" duration="4967000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="354" y="135" key="#Inspections" timestamp="1590588221638">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="354" y="135" key="#Inspections/0.0.1440.900/-1366.0.1366.1024@0.0.1440.900" timestamp="1590588221638" />
     <state x="0" y="84" key="#Live_Templates" timestamp="1589961380379">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="0" y="84" key="#Live_Templates/0.0.1440.900/-1366.0.1366.1024@0.0.1440.900" timestamp="1589961380379" />
+    <state x="600" y="293" width="715" height="436" key="#Notifications" timestamp="1590583697748">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="600" y="293" width="715" height="436" key="#Notifications/0.0.1440.900/-1366.0.1366.1024@0.0.1440.900" timestamp="1590583697748" />
     <state x="279" y="132" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1589961408858">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="279" y="132" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1440.900/-1366.0.1366.1024@0.0.1440.900" timestamp="1589961408858" />
-    <state x="221" y="89" key="SettingsEditor" timestamp="1589973556628">
+    <state x="270" y="154" key="SettingsEditor" timestamp="1590590920817">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="221" y="89" key="SettingsEditor/0.0.1440.900/-1366.0.1366.1024@0.0.1440.900" timestamp="1589960660532" />
-    <state x="221" y="89" key="SettingsEditor/0.0.1440.900/-1366.23.1366.1001@0.0.1440.900" timestamp="1589973556628" />
+    <state x="270" y="154" key="SettingsEditor/0.0.1440.900/-1366.0.1366.1024@0.0.1440.900" timestamp="1590590920817" />
+    <state x="362" y="110" key="SettingsEditor/0.0.1440.900/-1366.23.1366.1001@0.0.1440.900" timestamp="1590584468149" />
+    <state x="520" y="315" key="scopes" timestamp="1590587591017">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="520" y="315" key="scopes/0.0.1440.900/-1366.0.1366.1024@0.0.1440.900" timestamp="1590587591017" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1589962754786">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
