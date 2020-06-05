@@ -136,8 +136,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JavaScript Debug.Debug Application" />
       <item itemvalue="Jest.All Tests" />
+      <item itemvalue="JavaScript Debug.Debug Application" />
       <item itemvalue="npm.npm start" />
     </list>
   </component>
