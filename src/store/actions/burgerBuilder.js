@@ -1,7 +1,5 @@
 import * as actionTypes from  './actionTypes';
-import axios from "../../axios-orders";
 export const addIngredient = (name) => {
-	
 	return {
 		type: actionTypes.ADD_INGREDIENT,
 		ingredientName: name
@@ -15,7 +13,7 @@ export const removeIngredient = (name) => {
 	};
 };
 
-export const setIngredietns = (ingredients) => {
+export const setIngredients = (ingredients) => {
 	return {
 		type: actionTypes.SET_INGREDIENTS,
 		ingredients: ingredients
@@ -29,12 +27,7 @@ export const fetchIngredientFailed = () => {
 }
 
 export const initIngredients = () => {
-	return dispatch => {
-		axios.get('https://kondratburgers.firebaseio.com/ingredients.json')
-		.then ( response => {
-			dispatch(setIngredietns(response.data));
-		}).catch(error => {
-			dispatch(fetchIngredientFailed());
-		});
+	return{
+		type: actionTypes.INIT_INGREDIENTS
 	}
 };
