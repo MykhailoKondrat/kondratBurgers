@@ -15,12 +15,13 @@ const INGREDIENT_PRICES = {
 	bacon: 0.7
 };
 
-const changeIngredient = (state,action,value=1) => {
+const changeIngredient = (state,action,value = 1) => {
 	const updatedIngredient = { [action.ingredientName]: state.ingredients[action.ingredientName] + value};
 	const updatedIngredients = updateObject(state.ingredients, updatedIngredient);
 	const updatedState = {
 		ingredients:updatedIngredients,
-		totalPrice: state.totalPrice + INGREDIENT_PRICES[action.ingredientName],
+		//check to add or to subtract price from total based on value
+		totalPrice: value === 1 ? state.totalPrice + INGREDIENT_PRICES[action.ingredientName] : state.totalPrice - INGREDIENT_PRICES[action.ingredientName] ,
 		building:true
 	}
 	return updateObject(state, updatedState);
