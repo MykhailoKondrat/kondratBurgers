@@ -23,7 +23,6 @@ const authLogout = (state,action) => {
 	return updateObject(state, { token: null, userId:null });
 };
 const setAuthRedirectPath = (state,action) => {
-	console.log()
 	return updateObject(state, { authRedirectPath: action.path });
 };
 

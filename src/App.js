@@ -24,8 +24,7 @@ const Auth = React.lazy( () => {
 
 const App = props => {
     
-    const { onTryAutoSignUp }  = props;
-    
+    const { onTryAutoSignUp } = props;
     useEffect( () => {
         onTryAutoSignUp();
     }, [onTryAutoSignUp]);
